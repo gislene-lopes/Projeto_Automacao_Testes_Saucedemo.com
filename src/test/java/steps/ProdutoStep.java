@@ -6,7 +6,7 @@ public class ProdutoStep {
 
 	PageProducts step = new PageProducts ();
 	
-	public void TesteSelecionarProduto() {
+	public void testeSelecionarProduto() {
 		
 		step.que_esteja_na_pagina_de_produtos();
 		step.selecionar_o_produto_desejado();

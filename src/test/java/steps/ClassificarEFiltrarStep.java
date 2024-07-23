@@ -7,7 +7,7 @@ public class ClassificarEFiltrarStep {
 	PageProducts step = new PageProducts();
 	
 	
-	public void TesteFiltrarDeAaZ() {
+	public void testeFiltrarDeAaZ() {
 		step.que_esteja_na_pagina_de_produtos();
 		step.clicar_em_filtrar_e_classificar();
 		step.escolher_a_filtragem_de_a_a_z();
@@ -15,7 +15,7 @@ public class ClassificarEFiltrarStep {
 		
 	}
 	
-	public void TesteFiltrarDeZaA()  {
+	public void testeFiltrarDeZaA()  {
 		step.que_esteja_na_pagina_de_produtos();
 		step.clicar_em_filtrar_e_classificar();
 		step.escolher_a_filtragem_de_z_a_a();
@@ -23,14 +23,14 @@ public class ClassificarEFiltrarStep {
 		
 	}
 	
-	public void TesteFiltrarPrecoBaixoParaAlto() {
+	public void testeFiltrarPrecoBaixoParaAlto() {
 		step.que_esteja_na_pagina_de_produtos();
 		step.clicar_em_filtrar_e_classificar();
 		step.escolher_a_filtragem_de_preco_do_baixo_para_o_alto();
 		step.o_site_deve_atualizar_os_produtos_na_ordem_desejada();
 	}
 	
-	public void  TesteFiltrarPrecoAltoParaBaixo() {
+	public void testeFiltrarPrecoAltoParaBaixo() {
 		step.que_esteja_na_pagina_de_produtos();
 		step.clicar_em_filtrar_e_classificar();
 		step.escolher_a_filtragem_de_preco_do_alto_para_o_baixo();

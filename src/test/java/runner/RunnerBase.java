@@ -19,7 +19,7 @@ public class RunnerBase {
 	@Test
 	public void executa() {
 		
-		//TesteOK
+		//Testes_Checkout
 		checkout.testeCheckoutComDadosValidos();
 		checkout.testeCheckoutComDadosInvalidos();
 		checkout.testeCheckoutComDadosEmBranco();
@@ -27,23 +27,24 @@ public class RunnerBase {
 		
 		
 		/*
-		// TesteOk
+		// Testes_Login
 		login.testeLoginPositivo();
 		login.testeLoginNegativoDadosEmBranco();
 		login.testeLoginNegativoDadosInvalidos();
 
-		// TesteOk
-		produto.TesteSelecionarProduto();
+		// Teste_produto
+		produto.testeSelecionarProduto();
+		
 
-		// TesteOK
-		carrinho.TesteAdicionarProdutoAoCarrinho();
-		carrinho.TesteRemoverProdutoDoCarrinho();
+		// Testes_carrinho
+		carrinho.testeAdicionarProdutoAoCarrinho();
+		carrinho.testeRemoverProdutoDoCarrinho();
 
-		// TestOK
-		filtrar.TesteFiltrarDeAaZ();
-		filtrar.TesteFiltrarDeZaA();
-		filtrar.TesteFiltrarPrecoBaixoParaAlto();
-		filtrar.TesteFiltrarPrecoAltoParaBaixo();
+		// Teste_filtrar_e_classificar
+		filtrar.testeFiltrarDeAaZ();
+		filtrar.testeFiltrarDeZaA();
+		filtrar.testeFiltrarPrecoBaixoParaAlto();
+		filtrar.testeFiltrarPrecoAltoParaBaixo();
 	*/
 	}
 

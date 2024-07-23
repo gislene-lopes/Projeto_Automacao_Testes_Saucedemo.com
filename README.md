@@ -1,5 +1,5 @@
 <h1 align = "center">
-	<img src = "assets/images/logotipoSaucelabs.png">
+	<img src = "assets/images/logotipoSauceLabscf.png">
 </h1>
 
 <h2 align = "center">
@@ -21,7 +21,7 @@
 
 
 
-# 📌 Sobre 
+# ✅ Sobre 
 
 O projeto **Saucedemo** foi desenvolvido utilizando uma ferramenta da empresa SauceLabs, que é especializada em testes automatizados para funcionalidades de e-commerce.
 
@@ -31,6 +31,15 @@ Esta automação ajudou a garantir a estabilidade e funcionalidade do site, prop
 
 ---
 
+## 🔁 Modelo Conceitual
+
+
+<h2 align = "center">
+	<img src = "assets/images/FluxogramaSiteSaucedemo.png">
+</h2>
+
+
+---
 
 ## 🚀 Tecnologias Utilizadas 
 
@@ -38,18 +47,79 @@ Esta automação ajudou a garantir a estabilidade e funcionalidade do site, prop
 - Selenium WebDriver
 - Junit
 - Cucumber
+- Gherkin
+- IDE Eclipse
+- Maven project
 
 ---
 
-##  Como baixar o projeto
+## ▶ Como executar os testes
+
+Os testes são execultados na classe **RunnerBase** que fica localizada no seguinte caminho **src/test/java/runner**. Nesse projeto temos os seguintes testes: 
+
+#### Login 👤
+Para realizar testes de login, basta chamar o nome da variavél e o nome do teste que deseja validar.
+
+Confira o exemplo abaixo:
+
+```bash
+	# Teste para validar o Login com dados validos
+	login.testeLoginPositivo();
+```
+
+
+#### Produto 📦
+Para realizar testes de produto, basta chamar o nome da variável e o nome do teste que deseja validar.
+
+Confira o exemplo abaixo:
+
+```bash
+	#Teste para validar seleção de produtos
+	produto.testeSelecionarProduto();
+```
+
+#### Filtrar ✅
+Para realizar testes filtrar e classificar, basta chamar o nome da variavél e o nome do teste que deseja validar.
+
+Confira o exemplo abaixo:
+
+```bash
+	# Teste para validar a seleção de filtros de produtos
+	filtrar.testeFiltrarDeAaZ();
+```
+#### Carrinho 🛒
+Para realizar testes de carrinho, basta chamar o nome da variavél e o nome do teste que deseja validar.
+
+Confira o exemplo abaixo:
+
+```bash
+	#Teste adionar produto no carrinho
+	carrinho.testeAdicionarProdutoAoCarrinho();
+```
+#### Checkout ✅
+
+Para realizar testes de checkout, basta chamar o nome da variavél e o nome do teste que deseja validar.
+
+Confira o exemplo abaixo:
+
+```bash
+	#Teste para validar o checkout com dados válidos
+	checkout.testeCheckoutComDadosValidos();
+```
+
+** Observação: ** Não se preocupe, deixarei todos os testes possíveis comentados na classe RunnerBase para serem executados de forma rápida. 😊 
+
+---
+
+## ⬇ Como baixar o projeto
 
 ```bash
 
 # Clonar o repositório
-$ git clone endereço web
+$ git clone https://github.com/gislene-lopes/Projeto_Automacao_Testes_Saucedemo.com.git
 
 # Entrar no diretório
-$ cd saucedemo
+$ cd projeto saucedemo v1
 
 # Instalar o projeto
 $ yarn install
@@ -60,5 +130,5 @@ $ yarn start
 ```
 ---
 
-
-*Desenvolvido por Gislene Lopes*
+## Autor (a)
+Gislene Lopes da Silva
